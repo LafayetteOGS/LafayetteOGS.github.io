@@ -22,28 +22,38 @@
     <div class="Content">
       <h1>Working Groups</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
       <!-- Left div for WG list, right div to display info, 30/70 split -->
       <div class="WG-format">
         <div class="WG-list">
           <ul>
-            <li>Backbone</li>
-            <li>Organizing Committee</li>
-            <li>NHOC/DEI</li>
-            <li>ISL</li>
-            <li>BGSA</li>
+            <li onclick="BB_Info()">Backbone</li>
+            <li onclick="OC_Info()">Organizing Committee</li>
+            <li onclick="ND_Info()">NHOC/DEI</li>
+            <li onclick="IS_Info()">ISL</li>
+            <li onclick="BG_Info()">BGSA</li>
           </ul>
         </div>
         <div class="WG-detail">
-
+          <h1 id='Name'></h1>
         </div>
       </div>
-
     </div>
-
 
     <div class="Footer">
       <h5></h5>
     </div>
   </body>
 </html>
+
+<!-- Start JavaScript -->
+<script>
+function BB_Info() {document.getElementById("Name").innerText = "Backbone Committee";}
+
+function OC_Info() {document.getElementById("Name").innerText = "Organizing Committee";}
+
+function ND_Info() {document.getElementById("Name").innerText = "No Hate on Campus/Diversity, Equity, Inclusivity";}
+
+function IS_Info() {document.getElementById("Name").innerText = "International Students of Lafayette";}
+
+function BG_Info() {document.getElementById("Name").innerText = "Biology Graduate Student Association";}
+</script>
