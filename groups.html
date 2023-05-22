@@ -28,13 +28,16 @@
           <ul>
             <li onclick="BB_Info()">Backbone</li>
             <li onclick="OC_Info()">Organizing Committee</li>
-            <li onclick="ND_Info()">NHOC/DEI</li>
+            <li onclick="NH_Info()">NHOC</li>
             <li onclick="IS_Info()">ISL</li>
-            <li onclick="BG_Info()">BGSA</li>
+            <li onclick="BG_Info()">Grad Representation</li>
           </ul>
         </div>
         <div class="WG-detail">
           <h1 id='Name'></h1>
+          <p id='Descr'></p>
+          <h3 id='Meet'></h3>
+          <h3 id='Notes'></h3>
         </div>
       </div>
     </div>
@@ -47,13 +50,43 @@
 
 <!-- Start JavaScript -->
 <script>
-function BB_Info() {document.getElementById("Name").innerText = "Backbone Committee";}
+function BB_Info() {
+  document.getElementById("Name").innerText = "Backbone Committee";
+  document.getElementById("Descr").innerText = "The backbone working group aims
+  to increase LOGS' in-person and social media presence in order to provide a
+  broader audience access to our organization. They maintain the LOGS instagram
+  and website to provide information about LOGS objectives and actions. They also
+  provide canvassing support and outreach resources to working groups.";
+  document.getElementById("Meet").innerText = "";
+  document.getElementById("Notes").innerText = "";
+}
 
-function OC_Info() {document.getElementById("Name").innerText = "Organizing Committee";}
+function OC_Info() {
+  document.getElementById("Name").innerText = "Organizing Committee";
+  document.getElementById("Descr").innerText = "";
+  document.getElementById("Meet").innerText = "";
+  document.getElementById("Notes").innerText = "";
+}
 
-function ND_Info() {document.getElementById("Name").innerText = "No Hate on Campus/Diversity, Equity, Inclusivity";}
+function NH_Info() {
+  document.getElementById("Name").innerText = "No Hate on Campus";
+  document.getElementById("Descr").innerText = "";
+  document.getElementById("Meet").innerText = "";
+  document.getElementById("Notes").innerText = "";
+}
 
-function IS_Info() {document.getElementById("Name").innerText = "International Students of Lafayette";}
+function IS_Info() {
+  document.getElementById("Name").innerText = "International Students of Lafayette";
+  document.getElementById("Descr").innerText = "";
+  document.getElementById("Meet").innerText = "";
+  document.getElementById("Notes").innerText = "";
+}
 
-function BG_Info() {document.getElementById("Name").innerText = "Biology Graduate Student Association";}
+function BG_Info() {
+  document.getElementById("Name").innerText = "Grad Student Representation";
+  document.getElementById("Descr").innerText = "";
+  document.getElementById("Meet").innerText = "";
+  document.getElementById("Notes").innerText = "";
+}
+
 </script>
