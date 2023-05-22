@@ -71,6 +71,7 @@ body {
 }
 
 .WG-format {
+  height: 500px;
   width: 80%;
   margin: auto;
   display: grid;
@@ -84,13 +85,13 @@ body {
 .WG-list ul {
   margin: auto;
   padding: 0px;
+  display: grid;
+  grid-template-rows: auto;
+  height: 100%;
 }
 .WG-list ul li {
   list-style-type: none;
   border: 1px black solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
   font-size: 18pt;
   background-color: lightgray;
   text-align: center;
@@ -101,6 +102,14 @@ body {
 
 .WG-detail {
   border: black dashed 2px;
+}
+
+#Name {
+  text-decoration: underline;
+}
+
+#Descr {
+  padding: 0px 10px 0px;
 }
 
 /*
