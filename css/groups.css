@@ -99,10 +99,6 @@ body {
   background-color: gray;
 }
 
-.WG-detail {
-  border: black dashed 2px;
-}
-
 #Name {
   text-decoration: underline;
 }
