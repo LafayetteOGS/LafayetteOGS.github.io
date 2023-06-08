@@ -81,22 +81,23 @@ body {
 
 .WG-list {
   border: black solid 2px;
-}
-.WG-list ul {
+} .WG-list ul {
+  width: 100%;
   margin: auto;
   padding: 0px;
-  display: grid;
-  grid-template-rows: auto;
-  height: 100%;
-}
-.WG-list ul li {
+  display: inline-grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+} .WG-list ul li {
+  padding: 10px 0px 10px;
   list-style-type: none;
   border: 1px black solid;
   font-size: 18pt;
   background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-}
-.WG-list ul li:hover {
+} .WG-list ul li:hover {
   background-color: gray;
 }
 
