@@ -78,6 +78,12 @@ body {
   text-indent: 2em;
 }
 
+.Content p2 {
+  padding: 0px 100px 40px;
+  font-size: 15pt;
+  text-align: justify;
+  text-justify: auto;
+}
 .GetInvolved {
   padding-bottom: 30px;
   background: linear-gradient(0deg, rgba(45,199,253,1) 0%, rgba(152,228,254,1) 70%, rgba(255,255,255,1) 100%);
