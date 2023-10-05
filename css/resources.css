@@ -1,0 +1,99 @@
+body {
+  margin: auto;
+  width: 1080px;
+  height: auto;
+  background-color: #555555;
+  border-top: 7px solid black;
+  border-right: 7px solid black;
+  border-left: 7px solid black;
+}
+
+.Header {
+  height: 90px;
+  background-color: maroon;
+} .Header h1 {
+  text-align: center;
+  margin: 0px;
+  padding-top: 7px;
+  width: auto;
+  color: white;
+  font-size: 60px;
+} .Header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.PageNav {
+  background-color: maroon;
+} .PageNav ul {
+  border-bottom: 5px solid black;
+  border-top: 2px solid black;
+  padding: 0px;
+  margin: 0px;
+} .PageNav ul li {
+  border-right: 2px solid black;
+  font-size: 15pt;
+  display: inline-block;
+  padding: 10px;
+} .PageNav ul li:hover {
+  background-color: black;
+} .PageNav a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.Logo {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin: -10px auto -100px;
+  text-align: center;
+}
+
+.Content {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 1px;  /*Must be nonzero to avoid gray bar*/
+  background-color: white;
+}
+
+.Content h1 {
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.Content h2 {
+  padding-left: 100px;
+  margin-bottom: 0px;
+  font-size: 24pt;
+}
+
+.Content p {
+  padding: 0px 100px 0px;
+  font-size: 15pt;
+  text-align: justify;
+  text-justify: auto;
+  text-indent: 2em;
+}
+
+.Content p2 {
+  padding: 0px 100px 40px;
+  font-size: 15pt;
+  text-align: justify;
+  text-justify: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.Footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: maroon;
+  border-top: 4px solid black;
+  border-bottom: 7px solid black;
+}
