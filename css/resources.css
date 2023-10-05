@@ -42,15 +42,6 @@ body {
   color: white;
 }
 
-
-.Logo {
-  height: 500px;
-  width: 500px;
-  display: block;
-  margin: -10px auto -100px;
-  text-align: center;
-}
-
 .Content {
   height: auto;
   padding-top: 10px;
@@ -64,26 +55,13 @@ body {
   padding: 100px;
 }
 
-.Content h2 {
+.Content h3 {
   padding-left: 100px;
   margin-bottom: 0px;
   font-size: 24pt;
 }
 
-.Content p {
-  padding: 0px 100px 0px;
-  font-size: 15pt;
-  text-align: justify;
-  text-justify: auto;
-  text-indent: 2em;
-}
 
-.Content p2 {
-  padding: 0px 100px 40px;
-  font-size: 15pt;
-  text-align: justify;
-  text-justify: auto;
-}
 
 .Doc-List{
   text-decoration: none;
